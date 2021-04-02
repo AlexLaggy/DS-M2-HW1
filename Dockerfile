@@ -1,6 +1,6 @@
 FROM centos:latest
 
-MAINTAINER "MyDick" <youremail@address.com>
+MAINTAINER "MyDuck" <youremail@address.com>
 ENV container docker
 RUN yum -y update; yum clean all
 RUN yum -y install systemd; yum clean all; \
