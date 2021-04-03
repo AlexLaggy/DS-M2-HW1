@@ -26,7 +26,7 @@ for i in range(500_000):
 with open('syslog.log', 'w') as f:
     for it, key in enumerate(data.keys()):
         if it % 113 == 0:
-            f.write("It's a wrong,way,3\n")
+            f.write("It's a wrong way,3\n")
         elif it % 1001 == 0:
             f.write("Bad joke!\n")
         if it == 499_998:
